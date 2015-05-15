@@ -1,0 +1,346 @@
+body.index {
+	background:
+	 linear-gradient(
+	 	rgba(255, 157, 57, .5),
+	 	rgba(255, 157, 57, .5)
+	 ),
+	url("lawyers5.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.results {
+	background:
+	 linear-gradient(
+	 	rgba(255, 157, 57, .5),
+	 	rgba(255, 157, 57, .5)
+	 ),
+	url("lawyers3.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.profile {
+	background:
+	 linear-gradient(
+	 	rgba(255, 157, 57, .5),
+	 	rgba(255, 157, 57, .5)
+	 ),
+	url("lawyers2.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.fixedTop{
+	width:100%;
+	height:auto;
+	background-color: black;
+	position: fixed;
+	overflow: hidden;
+  	top: 0;
+  	left: 0;
+  	text-align:Center;
+	box-shadow: 0px 2px 5px #562C02;
+
+}
+
+div.fixedTop a{
+	text-decoration: none;
+}
+
+h1.webName{
+	vertical-align: top;
+	color:white;
+	color:orange;
+	font-family: 'Lato', sans-serif;	
+	font-size:1.8em;
+	font-weight:100;
+	letter-spacing: 10px;
+}
+
+div.searchContainer{
+	background-color: white;
+	margin-top: 200px;
+	min-height:150px;
+	min-width:220px;
+	width:30%;
+	max-width:350px;
+	height:20%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	box-shadow: 0px 2px 5px #562C02;
+	padding:20 20 70 20px;
+
+}
+
+div.searchContainer h2{
+	font-family: 'Lato', sans-serif;	
+	font-weight: 300;
+	margin-top:20px;
+	margin-bottom: 40px;
+	text-align:center;
+}
+
+a.search {
+	display:block;
+	position:relative;
+	margin-top:8px;
+	text-align:center;
+	text-decoration: none;
+	color:white;
+	font-family: 'Lato', sans-serif;	
+	background-color: #17B9F6;
+	padding: 10px 0px 10px 0px;
+}
+
+a.search:hover {
+	box-shadow: 0px 2px 1px #1686C1;
+}
+
+a.search:active {
+	box-shadow: inset 0px 0px 0px #1686C1;
+}
+
+select {
+	width:100%;
+	height:30px;
+	margin-bottom: 0px;
+	text-indent: 5px;
+ -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #E6E6E6; /* fallback color if gradients are not supported */
+    background-image: url(arrow4.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0px solid #AAA;
+    border-radius: 1px;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*RESULTS PAGE BELOW */
+
+div.resultsContainer{
+	background-color: white;
+	margin-top: 170px;
+	min-height:150px;
+	max-width:600px;
+	min-width:500px;
+	width:50%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	box-shadow: 0px 2px 5px #562C02;
+	padding:20 20 30 20px;
+
+}
+
+h2.snark {
+	text-align: center;
+	font-family: 'Lato', sans-serif;	
+	font-weight: 400;
+	margin-bottom: 0px;
+
+}
+h2.resultsSummary {
+	text-align: center;
+	font-family: 'Lato', sans-serif;	
+	font-weight: 300;
+	margin-top:0pc;
+	margin-bottom: 30px;
+}
+
+div.resultsContainer div {
+
+	text-align: left-justify;
+	display:inline-block;
+	width:90%;
+	min-width:400px;
+	max-width:500px;
+	padding:5px;
+	background-color: #EB7B06;
+	color:white;
+	margin-right:5px;
+	margin-left:5px;
+	padding-left:20px;
+	height:auto;
+}
+
+div.resultsContainer div:hover {
+	text-align: left-justify;
+	display:inline-block;
+	width:90%;
+	padding:5px;
+	background-color: #ED881F;
+	color:white;
+	margin-right:5px;
+	margin-left:5px;
+	padding-left:20px;
+	height:auto;
+}
+
+a.resultListings {
+	text-decoration: none;
+	color:white;
+}
+
+div.resultscontainer li {
+	width:100%;
+	font-family: 'Lato', sans-serif;	
+	list-style-type:none;
+	font-weight: 300;
+	margin-top:15px;
+}
+
+div.resultsContainer h3 {
+	display: inline-block;
+	margin:0px;
+	text-align: center;
+	font-weight: 400;
+}
+
+
+ p.resultsInfo {
+	display: inline-block;
+	margin:0px;
+	text-align: center;
+	font-weight: 400;
+}
+
+p.seeMoreResults{
+	width: 100%;
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;	
+	font-weight: 300;
+	text-align: center;
+}
+
+/*profile page */
+
+/*
+div.emppxlopxyerNameContact{
+	margin-top: 105px;
+	max-width:600px;
+	min-width:500px;
+	width:50%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+
+}*/
+
+div.summary{
+	background-color: white;
+	margin: 105px 0px 20px 0px;
+	min-height:150px;
+	width:625px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	box-shadow: 0px 2px 5px #562C02;
+	padding:20 20 20 20px;
+
+}
+
+p.summary {
+	text-align: justify;
+	padding: 0px 30px 0px 30px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;	
+
+}
+
+h2.mainHeading {
+	text-align: center;
+	font-family: 'Lato', sans-serif;	
+	font-weight: 900;
+	margin-bottom: 0px;
+
+}
+
+h2.subHeading {
+	text-align: center;
+	font-family: 'Lato', sans-serif;	
+	font-weight: 300;
+	margin-top:0pc;
+}
+
+div.container{
+	width:100%;
+	min-width: 620px;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+div.news{
+	text-align: left;
+	vertical-align:top;
+	display: inline-block;
+	background-color: white;
+	max-width:320px;
+	min-width:200px;
+	width:50%;
+	height:auto;
+	position:relative;
+	box-shadow: 0px 2px 5px #562C02;
+	padding:20 10 20 10px;
+	margin-left: 10px;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+ 	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+ 	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+}
+
+div.jobListings{
+	text-align: left;
+	display: inline-block;
+	background-color: white;
+	max-width:320px;
+	min-width:200px;
+	width:50%;
+	height:auto;
+	position:relative;
+	box-shadow: 0px 2px 5px #562C02;
+	padding:20 10 20 10px;
+	margin-right: 10px;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+ 	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+ 	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+}
+
+div.news li {
+	width:100%;
+	font-family: 'Lato', sans-serif;	
+	list-style-type:none;
+	font-weight: 300;
+	margin-top:15px;
+}
+
+div.jobListings li {
+	width:100%;
+	font-family: 'Lato', sans-serif;	
+	list-style-type:disc;
+	font-weight: 300;
+	margin-top:15px;
+}
