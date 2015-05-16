@@ -1,15 +1,16 @@
 body.index {
 	background:
-	 linear-gradient(
-	 	rgba(255, 157, 57, .5),
-	 	rgba(255, 157, 57, .5)
+		 linear-gradient(
+	 	rgba(0, 0, 0, .3),
+	 	rgba(0, 0, 0, .3)
 	 ),
-	url("http://www.partnerpoint.com/pictures/profile/juliana-cavoli-bentley-wa-541.jpg") no-repeat center center fixed;
+	url("OptimizedHDbackground.jpg") no-repeat center center fixed;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 
 body.results {
 	background:
@@ -46,7 +47,7 @@ div.fixedTop{
   	top: 0;
   	left: 0;
   	text-align:Center;
-	box-shadow: 0px 2px 5px #562C02;
+	box-shadow: 0px 2px 5px #000000;
 
 }
 
@@ -66,75 +67,145 @@ h1.webName{
 
 div.searchContainer{
 	background-color: white;
-	margin-top: 200px;
+	margin-top: 180px;
 	min-height:150px;
 	min-width:220px;
-	width:30%;
-	max-width:350px;
-	height:20%;
+	max-width:550px;
+	height:auto;
 	margin-left: auto;
 	margin-right: auto;
 	position:relative;
-	box-shadow: 0px 2px 5px #562C02;
-	padding:20 20 70 20px;
+/*	border:1px solid gray;
+*/	box-shadow: 0px 2px 5px #562C02;
+	padding:20 20 20 20px;
+}
 
+div.searchContainer h3{
+	font-family: 'Lato', sans-serif;	
+	font-weight: 300;
+	font-size:1.5em;
+	margin-top:20px;
+	margin-bottom: 5px;
+	text-align:center;
 }
 
 div.searchContainer h2{
 	font-family: 'Lato', sans-serif;	
-	font-weight: 300;
-	margin-top:20px;
-	margin-bottom: 40px;
+	font-weight: 400;
+	font-size:2.3em;
+	margin-top:5px;
+	margin-bottom: 15px;
 	text-align:center;
 }
 
-a.search {
-	display:block;
+div.searchContainer p{
+	font-family: 'Lato', sans-serif;	
+	font-weight: 100;
+	font-size:1em;
+	text-align:justify;
+	line-height:1.6em;
+
+}
+
+input[type=email]{
+	width: 100%;
+	height:40px;
+	font-size:1em;
+	padding: 10px;
+	text-align: left;
+
+}
+
+@media (min-width: 600px) {
+input[type=email]{
+	background: white url(email.png) no-repeat scroll 12px;
+	padding: 10px;
+	background-size: 35px;
+	text-indent: 50px;
+
+	::-webkit-input-placeholder {
+   text-indent: 50px;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+      text-indent: 50px;
+
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+      text-indent: 50px;
+
+
+}
+
+:-ms-input-placeholder {  
+      text-indent: 50px;
+
+}
+
+
+
+}
+  }
+
+
+input[type=submit] {
+	border:0px none;
+	width:100%;
+	font-size: 1em; 
 	position:relative;
 	margin-top:8px;
+	padding:10px;
 	text-align:center;
 	text-decoration: none;
 	color:white;
 	font-family: 'Lato', sans-serif;	
 	background-color: #17B9F6;
-	padding: 10px 0px 10px 0px;
 }
 
-a.search:hover {
+input[type=submit]:hover {
 	box-shadow: 0px 2px 1px #1686C1;
 }
 
-a.search:active {
-	box-shadow: inset 0px 0px 0px #1686C1;
+input[type=submit]:active {
+	box-shadow: inset 0px 2px 1px #1686C1;
 }
 
-select {
-	width:100%;
-	height:30px;
-	margin-bottom: 0px;
-	text-indent: 5px;
- -webkit-appearance: button;
-    -moz-appearance: button;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -webkit-padding-end: 20px;
-    -moz-padding-end: 20px;
-    -webkit-padding-start: 2px;
-    -moz-padding-start: 2px;
-    background-color: #E6E6E6; /* fallback color if gradients are not supported */
-    background-image: url(arrow4.png);
-    background-position: center right;
-    background-repeat: no-repeat;
-    border: 0px solid #AAA;
-    border-radius: 1px;
-    color: #555;
-    font-size: inherit;
-    margin: 0;
-    overflow: hidden;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+/*confirmation page*/
+
+div.confirmContainer{
+	background-color: white;
+	margin-top: 180px;
+	min-height:150px;
+	min-width:220px;
+	max-width:550px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+/*	border:1px solid gray;
+*/	box-shadow: 0px 2px 5px #562C02;
+	padding:20 20 0 20px;
+}
+
+div.confirmContainer h3{
+	font-family: 'Lato', sans-serif;	
+	font-weight: 300;
+	font-size:1.5em;
+	margin-top:20px;
+	margin-bottom: 5px;
+	text-align:center;
+}
+
+div.confirmContainer h2{
+	font-family: 'Lato', sans-serif;	
+	font-weight: 400;
+	font-size:2.3em;
+	margin-top:5px;
+	margin-bottom: 15px;
+	text-align:center;
 }
 
 /*RESULTS PAGE BELOW */
@@ -218,7 +289,6 @@ div.resultsContainer h3 {
 	text-align: center;
 	font-weight: 400;
 }
-
 
  p.resultsInfo {
 	display: inline-block;
