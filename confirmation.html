@@ -3,8 +3,41 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>	
+		<!-- Place this data between the <head> tags of your website -->
+		<title>Find a job in law</title>
+		<meta name="description" content="It's not you. Law jobs are hard to find. Let us help." />
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" value="summary" />
+
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Find a job in Law" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://www.opportunity.lawyer/" />
+		<meta property="og:image" content="http://www.opportunity.lawyer/background.jpg" />
+		<meta property="og:description" content="We'll help you find a job in law." />
 	</HEAD>
 	<BODY class="index">
+		<div class="fbWrapper">
+			<div id="fb-root"></div>
+			<script>
+			  window.fbAsyncInit = function() {
+			    FB.init({
+			      appId      : '381765368696172',
+			      xfbml      : true,
+			      version    : 'v2.3'
+			    });
+			  };
+
+			  (function(d, s, id){
+			     var js, fjs = d.getElementsByTagName(s)[0];
+			     if (d.getElementById(id)) {return;}
+			     js = d.createElement(s); js.id = id;
+			     js.src = "//connect.facebook.net/en_US/sdk.js";
+			     fjs.parentNode.insertBefore(js, fjs);
+			   }(document, 'script', 'facebook-jssdk'));
+			</script>
+		</div>
 		<div class="bigContainer">
 			<div class="fixedTop">
 				<a href="index.html"><h1 class="webName">Opportunity</h1></a>
@@ -12,12 +45,21 @@
 			<div class="confirmContainer">
 				<h2>Thanks for your support!</h2>
 				<h3>We'll let you know when we launch.</h3>
+				<div class="fbWrapper">
+					<div class="fb-share-button" data-href="https://www.opportunity.lawyer" data-layout="link"></div>
+				</div>
 			</div>
 		</div>
-		<script>
-				$('#fade').fadeIn();
-		</script>
 	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="javascript.js"></script>
+			<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-59158482-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
 	</BODY>
 </HTML>
