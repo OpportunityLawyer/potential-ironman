@@ -17,18 +17,18 @@
 		<meta property="og:image" content="http://www.opportunity.lawyer/HDbackground.jpg" />
 		<meta property="og:description" content="We'll make it easier for you to find a job in law by compiling, parsing, and distributing information about which employers are hiring, how much they're paying, and whether you'll even like working for them." />
 	</HEAD>
-	<BODY class="index">
+	<BODY class="index" onload='document.emailSubmit.email.focus()'>
 		<div class="bigContainer">
 			<div class="fixedTop">
 				<a href="index.html"><h1 class="webName">Opportunity</h1></a>
 			</div>
 			<div class="searchContainer">
-				<h3>Opportunity.lawyer wants to be your career assistant</h3>
-				<p> We'll make it easier for you to find a job in law by compiling, parsing, and distributing information about which employers are hiring, how much they're paying, and whether you'll even like working for them.</p>
-					<form accept-charset="UTF-8" action="https://formkeep.com/f/4e529d6dc5ff" method="POST" required>
+				<h3>Opportunity.lawyer is your career assistant</h3>
+				<p> We make it easier for you to find a job in law by compiling, parsing, and distributing information about which employers are hiring, how much they're paying, and whether you'll even like working for them.</p>
+					<form accept-charset="UTF-8" action="https://formkeep.com/f/4e529d6dc5ff" method="POST" name="emailSubmit" required>
 						<input type="email" name="email" placeholder="enter your email and we'll let you know when we launch" />
 						<input type="hidden" name="utf8" value="✓">
-						<input type="submit" value="Join List of Early Access Users">
+						<input type="submit" value="Become an Early Access User" onclick="ValidateEmail(document.emailSubmit.email)">
 					</form> 
 			</div>
 		</div>
